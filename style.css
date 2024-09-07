@@ -1,0 +1,563 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    width: 100%;
+    height: auto;
+}
+:root{
+    --Oswald:'Oswald';
+}
+.top{
+    background-color: #fff;
+    width: 100%;
+}
+.contain{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.socialmedia{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 28px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    width: 100%;
+    background-color: green;
+}
+.navbar ul{
+    width: 1200px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.navbar ul a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    background: linear-gradient(45deg,#fff, #ffffff79);
+    background-clip: text;
+}
+.navbar ul button{
+    padding: 8px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: yellow;
+}
+.container-fluid-banner{
+    background-color: #26b573;
+}
+.banner{
+    background-image: url(./banner.png);
+    width: 1200px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #fff;
+    padding-block: 150px;
+    margin: auto;
+}
+.banner h1{
+    font-size: 84px;
+    font-weight: 500;
+}
+.banner h2{
+    font-size: 48px;
+}
+.container-fluid-second{
+    background-color: #0399d8;
+}
+.mission{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 250px;
+    width: 1200px;
+    margin: auto;
+}
+.line{
+    width: 2px;
+    height: 60px;
+    background-color: black;
+}
+.one{
+    width: 300px;
+}
+.one h3{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 24px;
+}
+.one p{
+    font-family: sans-serif;
+    font-size: 12PX;
+    font-weight: 500;
+    padding-block: 20px;
+    padding-inline: 40px;
+}
+.one a{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #6c6c6c;
+}
+.two{
+    width: 300px;
+}
+.two h3{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 24px;
+}
+.two p{
+    font-family: sans-serif;
+    font-size: 12PX;
+    font-weight: 500;
+    padding-block: 20px;
+    padding-inline: 40px;
+}
+.two a{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #6c6c6c;
+}
+.three{
+    width: 300px;
+}
+.three h3{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 24px;
+}
+.three p{
+    font-family: sans-serif;
+    font-size: 12PX;
+    font-weight: 500;
+    padding-block: 20px;
+    padding-inline: 40px;
+}
+.three a{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #6c6c6c;
+}
+.date{
+    background-image: url(./3rd\ banner.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    margin: auto;
+    padding-block: 60px;
+}
+.date h1{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #404040; 
+}
+.date h2{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    color: yellow;
+    padding-top: 10px;
+}
+.date h3{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 28px;
+    color: white;
+    font-weight: 400;
+    padding-block: 20px;
+}
+.date button{
+    background-color: black;
+    font-family:"Oswald", sans-serif;
+    color: white;
+    padding-block: 8px;
+    padding-inline: 20px;
+    border: none;
+}
+.container-fluid-lastone{
+    background-color: #26b573;
+}
+.demo-event{
+    width: 1200px;
+    display: flex;
+}
+.demo{
+    background-image: url(./blur.png);
+    display: flex;
+    padding-block: 60px;
+    padding-inline: 30px;
+    gap: 20px;
+}
+.demo .part1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.circle1{
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: rgb(47, 47, 249);
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle1 h6{
+    width: 40px;
+}
+.circle2{
+    width: 40px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: rgb(22, 73, 1);
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video{
+    padding-top: 30px;
+}
+.part2 h3{
+    font-family:"Oswald", sans-serif;
+    font-weight: 500;
+}
+.part2 h4{
+    font-family:"Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.text h1{
+    font-family:"Oswald", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #016172;
+}
+.text h3{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    padding-top: 20px;
+    
+}
+.text p{
+    font-family:"Oswald", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    width: 350px;
+    line-height: 35px;
+    padding-top: 20px;
+}
+.event{
+    width: 100%;
+    background-color: #039ada;
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.event h1{
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    padding-left: 20px;
+}
+.text2{
+    padding: 20px;
+}
+
+.event .text2 h3{
+    font-size: 20px;
+    font-family:"Oswald", sans-serif;
+    font-weight:400;
+    color: yellow;
+}
+.event .text2 p{
+    font-size: 16px;
+    font-weight: 200;
+    color: white;
+}
+.event .line{
+    width: 100%;
+    height: 1px;
+    background-color: yellow;
+}
+.youth-photo{
+    width: 1200px;
+    display: flex;
+    margin: auto;
+}
+.youth{
+    background-color: #039ada;
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 20px;
+}
+.youth .line{
+    width: 100px;
+    height: 1px;
+    background-color: white;
+}
+.youth h1{
+    font-weight: 400;
+    color: yellow;  
+}
+.youth h3{
+    color: white;
+    font-weight: 300;
+}
+.youth p{
+    color: yellow;;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-block: 10px;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    background-color: rgb(0, 161, 0);
+    width: 100%;
+    height: 200px;
+    gap: 10px;
+}
+.photo h4{
+    font-weight: 400;
+}   
+
+.photo img{
+    width: 200px;
+    height: 130px;
+    border: 2px solid yellow;
+}
+.last-banner{
+    width: 1200px;
+    margin: auto;
+    background-image: url(./last\ banner.png);
+    padding-block: 30px;
+}
+.last-banner h1{
+    font-family: sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+}
+.last-banner h5{
+    font-family: sans-serif;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    padding-block: 10px;
+}
+.email-input{
+    width: 400px;
+    margin: auto;
+}
+.email-input input{
+    display: block;
+    margin: auto;
+    padding: 5px;
+    padding-left: 50px;
+}
+.email-input .arrow{
+   text-align: center;
+   padding-block: 10px;
+   width: 50px;
+   margin: auto; 
+   margin-block: 10px;  
+   border-radius: 50px;
+   background-color: #fff;
+}
+@media screen and (max-width: 600px){
+    .contain{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;     
+    } 
+    .contact p{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 30px;            
+    }
+    .logo{
+        width: 100%;   
+        padding-block: 10px;
+    }
+    .socialmedia{
+        margin-bottom: 30px;
+    }
+    .logo img{
+        width: 200px;
+        display: block;
+        margin: auto;
+    }
+    .navbar .contain ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 10px;
+        margin-block: 20px;
+    } 
+    .banner{
+        width: 100%;
+        background-size: cover;
+    }
+    .banner h1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .banner h2{
+        font-size: 24px;
+        padding-block: 20px;
+        padding-inline: 30px;
+    }
+    .mission{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        align-items: center;
+        padding-block: 30px;
+    }
+    .line{
+        width: 60px;
+        height: 2px;
+        margin-block: 15px;
+    }
+    .date{
+        width: 100%;
+        background-size: cover;
+        padding-inline: 10px;
+    }
+    .date h1{
+        font-size: 20px;
+        color: #cacaca;
+    }
+    .date h2{
+        font-size: 24px;
+    }
+    .date h3{
+        font-size: 24px;
+    }
+    .demo-event{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .demo{
+        width: 100%;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .demo .part1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .text p{
+        width: auto;
+        font-size: 28px;
+    }
+    .text h1{
+        font-size: 28px;
+    }
+    .text h3{
+        font-size: 20px;
+    }
+    .event{
+        text-align: center;
+        padding-block: 20px;
+    }
+    .event p{
+        padding-inline: 20px;
+    }
+    .text2{
+        text-align: center;
+    }
+    .youth-photo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;     
+    }
+    .youth{
+        background-color:  rgb(0, 161, 0);
+        text-align: center;
+        padding-top: 30px;
+    }
+    .youth .line{
+        margin: auto;
+    }
+    .photo{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-block: 30px;
+    }
+    .last-banner{
+        width: 100%;
+        background-size: cover;
+        padding-block: 30px;
+    }
+    .last-banner h1{
+        font-size: 20px;
+
+    }
+    .email-input{
+        width: 100%;
+    }
+
+
+}
